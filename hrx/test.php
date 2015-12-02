@@ -30,3 +30,28 @@ Choose name:<select name="cars">
 <p><input type="submit" name="submit" value="Save Data"/>&nbsp;<input type="reset" value="Clear Form" />
 
 </form>
+
+<script>
+/*
+function delete_info(sales_id) {	            			
+		    //alert(sales_id);	
+            $_token = "{{ csrf_token() }}";
+            $.ajax({
+	            type: "POST",
+	            url: "voucher/delete_info",
+	            data: {
+					_token: $_token,
+					sales_id: sales_id,
+					},
+	            success: function (response) {
+	            	if(response == 0){
+	            		alert("Not found this item.");
+	            	} else if(response == 1){
+	            		location.reload();
+	            	}
+	           	}
+	        });	
+           		
+}
+*/
+</script>
